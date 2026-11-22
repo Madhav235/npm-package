@@ -1,0 +1,34 @@
+{
+  "name": "my-world-languages",
+  "version": "1.0.0",
+  "description": "A lightweight offline list of localized language names.",
+  "type": "module",
+  "main": "./src/index.cjs",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "language",
+    "languages",
+    "lang",
+    "list",
+    "world",
+    "localized-names"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
